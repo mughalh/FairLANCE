@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FairLANCE Order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1 class="title">FairLANCE</h1>
+        <a href="index.html"><strong>Home</strong></a>
+    </div>
+
+    <div class="body-log">
+        <h2>Order Form</h2>
+        <form action="order.php" method="post" name="order">
+            <input type="text" id="name" name="name" placeholder="Order Name" required>
+            
+            <select type="category" id="category" name="category" required>
+                <option value="web_development">Web Development</option>
+                <option value="graphic_design">Graphic Design</option>
+                <option value="content_writing">Content Writing</option>
+                <option value="digital_marketing">Digital Marketing</option>
+                <option value="video_editing">Video Editing</option>
+                <option value="other">other</option>
+            </select>
+
+            <input type="number" id="price" name="price" placeholder="Price (PKR)"required>
+            
+            <input type="date" id="dueDate" name="dueDate" placeholder="due date" required                                                                                                                                                                                      >
+            
+            <textarea type="description" id="description" name="description" placeholder="Description" rows="4" required></textarea>
+
+            <input type="submit" value="Submit Order">
+        </form>
+    </div>
+
+    <div class="footer">
+        <a href="more.html"><strong>about</strong></a>
+    </div>
+</body>
+</html>
