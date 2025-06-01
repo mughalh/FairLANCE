@@ -1,7 +1,6 @@
 # FairLANCE
 The Future of Pakistan!
-
-# Fairlance - Freelancing Done Right
+Freelancing Done Right
 
 ## Introduction
 
